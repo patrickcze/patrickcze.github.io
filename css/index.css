@@ -1,0 +1,19 @@
+.navbar {
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+}
+
+.navbar li {
+    color: #000
+}
+
+.header {
+    /*    background-image: url("../pexels-photo.jpg");*/
+    height: 200px;
+}
+
+.header h1,
+.header h2 {
+    text-align: center;
+}
