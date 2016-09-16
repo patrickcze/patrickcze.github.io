@@ -44,3 +44,11 @@ p {
     opacity: 0;
     filter: alpha(opacity=0);
 }
+
+#experienceList {
+    list-style: none;
+}
+
+footer p {
+    text-align: center;
+}
