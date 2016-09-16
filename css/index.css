@@ -1,3 +1,8 @@
+p {
+    font-size: 16px;
+    text-align: justify
+}
+
 .navbar {
     background-color: transparent;
     background: transparent;
@@ -9,7 +14,6 @@
 }
 
 .header {
-    /*    background-image: url("../pexels-photo.jpg");*/
     height: 200px;
 }
 
@@ -19,7 +23,7 @@
 }
 
 #aboutMeHeader {
-    text-align: right;
+    color: #00D400;
 }
 
 #about p {
