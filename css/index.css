@@ -49,6 +49,11 @@ p {
     list-style: none;
 }
 
+#contact p,
+#contact h2 {
+    text-align: center;
+}
+
 .contactIcons {
     text-align: center;
 }
