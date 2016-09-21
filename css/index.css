@@ -3,23 +3,34 @@ p {
     text-align: justify
 }
 
+#test {
+    background-image: url(../apple-desk-office-technology.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .navbar {
-    background-color: transparent;
-    background: transparent;
+    background-color: white;
     border-color: transparent;
+    opacity: 0.75;
 }
 
 .navbar li {
     color: #000
 }
 
-.header {
-    height: 200px;
-}
-
 .header h1,
 .header h2 {
     text-align: center;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    color: white;
+}
+
+#about {
+    padding: 30px;
+    background-color: #FFFFFF;
 }
 
 #aboutMeHeader {
