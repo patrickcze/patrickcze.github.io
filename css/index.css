@@ -11,20 +11,30 @@ p {
 }
 
 .navbar {
-    background-color: white;
-    border-color: transparent;
-    opacity: 0.75;
+    border-radius: 0px;
+}
+
+.navbar-inverse {
+    background-color: #212121;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #FFFFFF;
+}
+
+.nav.navbar-nav li a {
+    color: #FFFFFF;
 }
 
 .navbar li {
-    color: #000
+    color: #000;
 }
 
 .header h1,
 .header h2 {
     text-align: center;
-    padding-top: 7%;
-    padding-bottom: 7%;
+    padding-top: 9%;
+    padding-bottom: 9%;
     color: white;
 }
 
@@ -56,8 +66,24 @@ p {
     filter: alpha(opacity=0);
 }
 
+#recentProjects {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#recentProjects {
+    text-align: center;
+}
+
 #experienceList {
     list-style: none;
+}
+
+#contact {
+    background-color: #383838;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 #contact p,
@@ -69,6 +95,24 @@ p {
     text-align: center;
 }
 
+#resume {
+    background-color: #383838;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#resume h2 {
+    text-align: center;
+}
+
+footer {
+    background-color: #212121;
+}
+
 footer p {
     text-align: center;
+    color: #FFFFFF;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
