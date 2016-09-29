@@ -3,12 +3,17 @@ p {
     text-align: justify
 }
 
-#test {
-    background-image: url(../apple-desk-office-technology.jpg);
-    background-size: cover;
+#headerArea {
+    /*    background-image: url(../apple-desk-office-technology.jpg);*/
+    /*    background-size: cover;*/
+    /*
     background-repeat: no-repeat;
     background-position: center;
+*/
+    background-color: #383838;
 }
+
+#headerArea .header {}
 
 .navbar {
     border-radius: 0px;
@@ -16,6 +21,7 @@ p {
 
 .navbar-inverse {
     background-color: #212121;
+    border-color: #212121 !important;
 }
 
 .navbar-inverse .navbar-brand {
